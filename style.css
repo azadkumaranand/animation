@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.bottompart p{
+    margin-bottom: 2px;
+}
+
+.toppart{
+    position: relative;
+}
+
+.image img{
+    width: 100%;
+    height: 300px;
+}
+
+.cardcontainer{
+    width: 307px;
+    min-height: 415px;
+    background-color: #190b14;
+    position: relative;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.discount{
+    position: absolute;
+    right: 10px;
+    top: 18x;
+    background-color: white;
+}
+
+.discount p{
+    margin-bottom: 2px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.color-box{
+    display: flex;
+    justify-content: center;
+}
+
+.color-box p{
+    width: 0px;
+    height: 0px;
+    background-color: #8d0def;
+    border-radius: 100%;
+    margin: 0 4px;
+}
+
+.viewbtn{
+    background-color: rgb(40, 15, 15);
+    padding: 15px 10px;
+    text-align: center;
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    width: 95%;
+    left: 50%;
+    transform: translate(-50%);
+    /* display: none; */
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.bottompart{
+    height: 100px;
+    text-align: center;
+    color: white;
+    margin-top: 15px;
+}
+
+.on-sale{
+    color: #8d0def;
+    font-size: 13px;
+}
+.compare-at{
+    text-decoration: line-through;
+    color: white;
+    font-size: 13px;
+}
+
+#statusBar {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    width: 100%;
+    /* height: 4px; */
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.progress {
+    height: 100%;
+    width: 0;
+    height: 4px;
+    background-color: #4caf50;
+    transition: width 0.8s ease-in;
+}
+
